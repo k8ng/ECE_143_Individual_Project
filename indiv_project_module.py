@@ -218,9 +218,9 @@ def plot_trimmed(fig,region,max_area_xloc,max_area_yloc,max_area_width,max_area_
     '''
     
     trimmed_patch = patches.Rectangle([max_area_xloc,max_area_yloc],max_area_width,max_area_length,facecolor=hex_color,alpha=0.5)
-    sleep(0.5)
-    whole_patch.remove()
-    sleep(0.2)
+    #sleep(0.5)
+    #whole_patch.remove()
+    #sleep(0.2)
     region.add_patch(trimmed_patch)
 
 def update_region(region_array,max_area_xloc,max_area_yloc,max_area_width,max_area_length):
